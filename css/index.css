@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__sub-container {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container__logo {
+  width: 100px;
+  margin-top: -6px;
+}
+
+.logo-container__company-name {
+  color: #000;
+  font-size: 3em;
+  font-family: 'Anton', sans-serif;
+}
+
+.nav-container {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-container__link {
+  font-size: 1.2em;
+}
+
+.main {
+  margin-top: 65px;
+  background-color: white;
+  flex: 1 1 1px;
+}
+
+.footer {
+  height: 65px;
+  background-color: aqua;
+}
