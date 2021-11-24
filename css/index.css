@@ -125,6 +125,10 @@ a {
   color: #000;
 }
 
+h2 {
+  font-size:  2rem;
+}
+
 .header {
   height: 100px;
   width: 100%;
@@ -215,8 +219,33 @@ a {
 }
 
 .footer {
-  height: 65px;
-  background-color: aqua;
+  height: 80px;
+}
+
+.footer__sub-container{
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  border-top: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vertical-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.link {
+  font-size: 1.3rem;
+  margin: 5px 0;
+}
+
+.copyrights {
+  font-size: 1.4rem;
 }
 
 @media (max-width: 768px) {
