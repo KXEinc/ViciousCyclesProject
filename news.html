@@ -10,15 +10,39 @@
     <header class="header">
       <div class="header__sub-container">
         <div class="logo-container">
-          <img src="images/logo.png" alt="Vicious Cycles Logo" class="logo-container__logo">
+          <img
+            src="images/logo.png"
+            alt="Vicious Cycles Logo"
+            class="logo-container__logo"
+          />
           <h1 class="logo-container__company-name">Vicious Cycles</h1>
         </div>
         <nav class="nav-container">
-          <a href="index.html" class="nav-container__link">Home</a>
-          <a href="catalog.html" class="nav-container__link">Catalog</a>
-          <a class="nav-container__link nav-container__link_active">News</a>
-          <a href="contacts.html" class="nav-container__link">Contacts</a>
-          <a href="about.html" class="nav-container__link">About</a>
+          <div class="nav-container__sub-container">
+            <a href="index.html" class="nav-container__link">Home</a>
+            <a href="catalog.html" class="nav-container__link">Catalog</a>
+            <a class="nav-container__link nav-container__link_active">News</a>
+            <a href="contacts.html" class="nav-container__link">Contacts</a>
+            <a href="about.html" class="nav-container__link">About</a>
+          </div>
+          <ul class="nav-container_burger">
+            <li class="nav-container_burger__root">
+              <ul class="dropdown">
+                <li class="dropdown__item">
+                  <a href="index.html" class="nav-container__link">Home</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="catalog.html" class="nav-container__link">Catalog</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="contacts.html" class="nav-container__link">Contacts</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="about.html" class="nav-container__link">About</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
