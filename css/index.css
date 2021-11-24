@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 html,
 body,
@@ -101,6 +101,11 @@ nav,
 section {
   display: block;
 }
+
+html {
+  font-size: 10px;
+}
+
 body {
   min-height: 100vh;
   height: 100%;
@@ -109,6 +114,15 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .header {
@@ -144,27 +158,81 @@ body {
 
 .logo-container__company-name {
   color: #000;
-  font-size: 3em;
-  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  font-family: "Anton", sans-serif;
 }
 
 .nav-container {
-  width: 15%;
   display: flex;
   justify-content: space-around;
 }
 
 .nav-container__link {
-  font-size: 1.2em;
+  font-size: 2.3rem;
+  margin: 0 20px;
+}
+
+.nav-container__link_active {
+  text-shadow: 0 0 5px #c29d2f;
+}
+
+.nav-container_burger {
+  display: none;
+  background: center/contain no-repeat url("../images/icons/bars-solid.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.nav-container_burger__root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-container_burger__root:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  padding: 5px;
+  right: 0;
+  top: 20px;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+}
+
+.dropdown__item {
+  font-size: 3rem;
+  margin: 15px 0;
 }
 
 .main {
   margin-top: 65px;
   background-color: white;
-  flex: 1 1 1px;
+  flex: 1 1 50vh;
 }
 
 .footer {
   height: 65px;
   background-color: aqua;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  .nav-container__sub-container {
+    display: none;
+  }
+
+  .logo-container__logo {
+    display: none;
+  }
+
+  .nav-container_burger {
+    display: block;
+  }
 }
