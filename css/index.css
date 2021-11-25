@@ -405,3 +405,20 @@ h2 {
 .fs2 {
   font-size: 2rem;
 }
+.fs2-5 {
+  font-size: 2.5rem;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+.now-hiring {
+  position: relative;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  background: url("../images/backdrops/home-second.jpg") no-repeat fixed top / cover;
+  color: #fff;
+}
