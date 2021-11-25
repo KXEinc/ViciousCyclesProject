@@ -128,7 +128,7 @@ h1 {
 }
 
 h2 {
-  font-size:  2rem;
+  font-size:  3rem;
 }
 
 .bold {
@@ -231,7 +231,8 @@ h2 {
 
 .scene {
   background: url("../images/backdrops/home-first.jpg") no-repeat fixed center / cover;
-  height: 80vh;
+  margin-top: 200px;
+  height: 90vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -245,7 +246,7 @@ h2 {
   z-index: 1;
 }
 
-.scene__button {
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -260,7 +261,7 @@ h2 {
   border: 1px solid #fff
 }
 
-.scene__button:hover {
+.button:hover {
   background-color: #000;
 }
 
@@ -285,6 +286,31 @@ h2 {
 
 .info__text {
   font-size: 1.6rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.card-container__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30px;
+  position: relative;
+  flex: 1 1 30vw;
+  padding: 10px;
+}
+
+.card-container__item__image {
+  width: 80%;
+}
+
+.card-container__item__text {
+  width: 80%;
 }
 
 .footer {
@@ -356,4 +382,26 @@ h2 {
   .nav-container_burger {
     display: block;
   }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-container__item{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.fs2 {
+  font-size: 2rem;
 }
