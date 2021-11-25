@@ -135,6 +135,7 @@ h2 {
   left: 0;
   right: 0;
   background-color: #fff;
+  z-index: 10;
 }
 
 .header__sub-container {
@@ -225,6 +226,7 @@ h2 {
   background-color: #F2F1EE;
   opacity: 0.5;
   transition: opacity 0.3s;
+  z-index: 2;
 }
 
 .helpful-container:hover {
@@ -244,6 +246,21 @@ h2 {
 .scene {
   background: url("../images/backdrops/home-first.jpg") no-repeat fixed center / cover;
   height: 80vh;
+  text-align: center;
+  position: relative;
+}
+
+.scene__title {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.7;
 }
 
 .footer {
