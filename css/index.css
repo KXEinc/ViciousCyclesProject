@@ -123,6 +123,10 @@ a {
   color: #000;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
 h2 {
   font-size:  2rem;
 }
@@ -219,7 +223,7 @@ h2 {
   position: sticky;
   width: 200px;
   height: 130px;
-  top: 20%;
+  top: 150vh;
   left: 10px;
   padding: 20px;
   border-radius: 10px;
@@ -246,13 +250,36 @@ h2 {
 .scene {
   background: url("../images/backdrops/home-first.jpg") no-repeat fixed center / cover;
   height: 80vh;
-  text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .scene__title {
   color: #fff;
-  font-size: 5rem;
+  font-family: 'Anton', sans-serif;
+  z-index: 1;
+}
+
+.scene__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #577786;
+  color: #fff;
+  z-index: 1;
+  width: 200px;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid #fff
+}
+
+.scene__button:hover {
+  background-color: #000;
 }
 
 .shadow {
