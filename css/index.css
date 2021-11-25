@@ -131,6 +131,10 @@ h2 {
   font-size:  2rem;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .header {
   height: 100px;
   width: 100%;
@@ -144,7 +148,7 @@ h2 {
 
 .header__sub-container {
   width: 95%;
-  height: 100%;
+  height: 99%;
   margin: auto;
   border-bottom: 1px solid #dbdbdb;
   display: flex;
@@ -243,7 +247,6 @@ h2 {
 }
 
 .main {
-  border: 1px solid red;
   margin-top: -50px
 }
 
@@ -290,9 +293,22 @@ h2 {
   opacity: 0.7;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+}
+
+.info__text {
+  font-size: 1.6rem;
+}
+
 .footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   height: 80px;
 }
