@@ -226,12 +226,11 @@ h2 {
 }
 
 .main {
-  margin-top: -50px
+  margin-top: 150px;
 }
 
 .scene {
   background: url("../images/backdrops/home-first.jpg") no-repeat fixed center / cover;
-  margin-top: 200px;
   height: 90vh;
   position: relative;
   display: flex;
@@ -368,6 +367,77 @@ h2 {
   font-style: italic;
 }
 
+.about-article{
+  position: relative;
+  height: 40vh;
+  display: flex;
+}
+
+.about-article__sub-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-article__text {
+  margin: 10px 0;
+  align-self: flex-start;
+  font-size: 2.5rem;
+}
+
+.photo {
+  padding: 20px;
+  height: 80%;
+}
+
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.fs2 {
+  font-size: 2rem;
+}
+.fs2-5 {
+  font-size: 2.5rem;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+.invert-color {
+  color: #fff;
+}
+
+.now-hiring {
+  position: relative;
+  height: 20vh;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  background: url("../images/backdrops/home-second.jpg") no-repeat fixed top / cover;
+  color: #fff;
+}
+
+.about-article {
+
+}
+
+.about-article_first-background {
+  background: url("../images/backdrops/about-first.jpg") no-repeat fixed center / cover;
+}
+
+.about-article_second-background {
+  background: url("../images/backdrops/about-second.jpg") no-repeat fixed center / cover;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 8px;
@@ -394,33 +464,4 @@ h2 {
     width: 100%;
     margin-bottom: 10px;
   }
-}
-
-.mt10 {
-  margin-top: 10px;
-}
-
-.mb10 {
-  margin-bottom: 10px;
-}
-
-.fs2 {
-  font-size: 2rem;
-}
-.fs2-5 {
-  font-size: 2.5rem;
-}
-
-.z1 {
-  z-index: 1;
-}
-
-.now-hiring {
-  position: relative;
-  height: 20vh;
-  align-items: center;
-  justify-content: space-around;
-  padding: 30px;
-  background: url("../images/backdrops/home-second.jpg") no-repeat fixed top / cover;
-  color: #fff;
 }
