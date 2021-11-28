@@ -491,6 +491,27 @@ h2 {
   justify-content: space-around;
 }
 
+.service-block{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.service-block__description {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  position: relative;
+}
+
+.service-block__description__text{
+  width: 49%;
+}
+
+.service-block__description__image {
+  max-width: 555px;
+  max-height: 300px;
+}
+
 @media screen and (max-width: 1440px) {
   .information-block {
     flex-direction: column;
@@ -502,6 +523,15 @@ h2 {
 @media screen and (max-width: 1024px) {
   html {
     font-size: 9px;
+  }
+
+  .service-block__description{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-block__description__image {
+    margin-top: 10px;
   }
 }
 
@@ -533,6 +563,10 @@ h2 {
   }
 
   .photo {
+    display: none;
+  }
+
+  .service-block__description__image{
     display: none;
   }
 }
