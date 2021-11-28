@@ -492,7 +492,7 @@ h2 {
 }
 
 .service-block{
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -504,22 +504,21 @@ h2 {
 }
 
 .service-block__description__text{
-  width: 49%;
+  width: 30%;
 }
 
 .service-block__description__image {
-  max-width: 555px;
-  max-height: 300px;
+  width: 30%;
 }
 
 .service-block__options-block {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .service-block__options-block__card {
   position: relative;
-  width: 400px;
+  width: 350px;
   text-align: center;
 }
 
@@ -537,18 +536,18 @@ h2 {
 }
 
 .service-block__options-block__card__bottom {
-
+ padding: 10px 0;
 }
 
-.service-block__options-block__card__bottom_bronze {
+.bc-bronze {
   background-color: #cd7f32;
 }
 
-.service-block__options-block__card__bottom_silver {
+.bc-silver {
   background-color: #c0c0c0;
 }
 
-.service-block__options-block__card__bottom_gold {
+.bc-gold {
   background-color: #ffd700;
 }
 
