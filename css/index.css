@@ -456,6 +456,11 @@ h2 {
   color: #fff;
 }
 
+.bold {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+}
+
 .now-hiring {
   position: relative;
   height: 20vh;
@@ -492,33 +497,33 @@ h2 {
 }
 
 .service-block{
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 
 .service-block__description {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100%;
   position: relative;
 }
 
 .service-block__description__text{
-  width: 30%;
+  width: 40%;
 }
 
 .service-block__description__image {
-  width: 30%;
+  width: 50%;
 }
 
 .service-block__options-block {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .service-block__options-block__card {
   position: relative;
-  width: 350px;
+  width: 330px;
   text-align: center;
 }
 
@@ -528,6 +533,7 @@ h2 {
 
 .service-block__options-block__card__price {
   background-color: #ddd;
+  font-size: 2.2rem;
 }
 
 .service-block__options-block__card__description {
@@ -552,12 +558,31 @@ h2 {
 }
 
 
+@media screen and  (max-width: 2150px){
+  .service-block {
+    width: 60%;
+  }
+}
+
+@media screen and  (max-width: 1824px){
+  .service-block {
+    width: 75%;
+  }
+}
+
 
 @media screen and (max-width: 1440px) {
   .information-block {
     flex-direction: column;
     align-items: center;
     align-content: center;
+  }
+  .service-block {
+    width: 90%;
+  }
+
+  .service-block__options-block__card{
+    width: 300px;
   }
 }
 
@@ -572,7 +597,19 @@ h2 {
   }
 
   .service-block__description__image {
-    margin-top: 10px;
+    display: none;
+  }
+  .service-block__options-block{
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-block__options-block__card{
+    margin-bottom: 10px;
+  }
+
+  .service-block__description__text{
+    width: 90%;
+    text-align: center;
   }
 }
 
