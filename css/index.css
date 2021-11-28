@@ -437,8 +437,8 @@ h2 {
   margin-bottom: 10px;
 }
 
-.fs1-5 {
-  font-size: 1.5rem;
+.fs1-6 {
+  font-size: 1.6rem;
 }
 
 .fs2 {
@@ -511,6 +511,48 @@ h2 {
   max-width: 555px;
   max-height: 300px;
 }
+
+.service-block__options-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-block__options-block__card {
+  position: relative;
+  width: 400px;
+  text-align: center;
+}
+
+.service-block__options-block__card__title {
+  font-size: 2.6rem;
+}
+
+.service-block__options-block__card__price {
+  background-color: #ddd;
+}
+
+.service-block__options-block__card__description {
+  background-color: #f6f6f6;
+  line-height: 44px;
+}
+
+.service-block__options-block__card__bottom {
+
+}
+
+.service-block__options-block__card__bottom_bronze {
+  background-color: #cd7f32;
+}
+
+.service-block__options-block__card__bottom_silver {
+  background-color: #c0c0c0;
+}
+
+.service-block__options-block__card__bottom_gold {
+  background-color: #ffd700;
+}
+
+
 
 @media screen and (max-width: 1440px) {
   .information-block {
