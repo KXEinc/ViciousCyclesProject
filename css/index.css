@@ -401,6 +401,10 @@ h2 {
   margin-bottom: 10px;
 }
 
+.bio {
+  width: auto;
+}
+
 .about-article_first-background {
   background: url("../images/backdrops/about-first.jpg") no-repeat fixed center / cover;
 }
