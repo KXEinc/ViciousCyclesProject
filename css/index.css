@@ -601,6 +601,8 @@ h3 {
   align-self: flex-end;
   margin-bottom: 10px;
   margin-right: 10px;
+  width: 30%;
+  min-width: 100px;
 }
 
 @media screen and  (max-width: 2150px){
@@ -629,6 +631,11 @@ h3 {
   .service-block__options-block__card{
     width: 300px;
   }
+
+  .catalog-item {
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -655,6 +662,10 @@ h3 {
   .service-block__description__text{
     width: 90%;
     text-align: center;
+  }
+
+  .catalog-item__button {
+    align-self: center;
   }
 }
 
@@ -691,5 +702,13 @@ h3 {
 
   .service-block__description__image{
     display: none;
+  }
+
+  .catalog-item__image{
+    width: 100%;
+  }
+
+  .catalog-item {
+    width: 300px;
   }
 }
